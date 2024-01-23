@@ -2,51 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="logo-circle.png ">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Servicio Tecnico</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b1ae749c97.js" crossorigin="anonymous"></script>
 </head>
 <body>        
+
     <nav class="mep1">
-        <ul>
-            <li class="select"><a href="">Inicio</a></li>                
-            <li class="select"><a href="">Servicio Tecnico</a></li>
-            <li class="select"><a href="">Productos</a></li>
-            <li class="select"><a href="">Contactar</a></li>            
+        <ul class="menu_items">
+            <li><a href="/" class="select s1">Inicio</a></li>                
+            <li><a href="#servicio" class="select s2">Servicio Tecnico</a></li>
+            <li><a href="#" class="select s3">Productos</a></li>
+            <li><a href="#contact" class="select s4">Contactar</a></li>            
         </ul>
+
     </nav>
+    <span class="btn_menu"><i class="fas fa-bars btn"></i></span>
     <div class="port">
-        <div class="btn-cont"><button id="btn">menu</button></div>
+
         <div class="map1">
             <h1 class="title"><span style="color: #2d9e54;">DC</span><span style="color: #27663d;">T</span>ech</h1>    
         </div>
         <div class="glass"></div>
-        <img src="pexels-marek-levak-2265488.jpg" alt="" class="imageport">
+        <img src="port.jpg" alt="" class="imageport">
     </div>
     <main class="mainprin">
+        <a name="servicio"></a>
         <div class="continfo">
             <div class="tpmp">Que Ofrecemos</span></div>
             <div class="tsmp">C<span style="color: #ddd;">omputadoras</span></div>
             <ul class="list">
-                <li><a href="">Mantenimiento</a></li>
-                <li><a href="">Armado personalizado de cero</a></li>
-                <li><a href="">Instalacion de programas</a></li>
-                <li><a href="">Reparacion General</a></li>
+                <li><a href="" >Mantenimiento</a></li>
+                <li><a href="" >Armado personalizado de cero</a></li>
+                <li><a href="" >Instalacion de programas</a></li>
+                <li><a href="" >Reparacion General</a></li>
             </ul>
         </div>
 
         <div id="gallery-container">
             <div class="slide">
-                <img src="pexels-anete-lusina-4792713.jpg" alt="Imagen 1" class="bordimg">
+                <img src="1.jpg" alt="Imagen 1" class="bordimg">
             </div>
             <div class="slide">
-                <img src="pexels-marek-levak-2265488.jpg" alt="Imagen 2" class="bordimg">
+                <img src="2.jpg" alt="Imagen 2" class="bordimg">
             </div>
             <div class="slide">
-                <img src="pexels-photo-4792727.jpg" alt="Imagen 3" class="bordimg">
+                <img src="3.jpg" alt="Imagen 3" class="bordimg">
             </div>
             <div class="slide">
-                <img src="pexels-dan-cristian-pădureț-1476321.jpg" alt="Imagen 4" class="bordimg">
+                <img src="4.jpg" alt="Imagen 4" class="bordimg">
+            </div>           
+            <div class="slide">
+                <img src="5.jpg" alt="Imagen 4" class="bordimg">
             </div>
 
 
@@ -55,9 +64,17 @@
                 <span class="control-circle" onclick="currentSlide(2)"></span>
                 <span class="control-circle" onclick="currentSlide(3)"></span>
                 <span class="control-circle" onclick="currentSlide(4)"></span>
+                <span class="control-circle" onclick="currentSlide(5)"></span>
             </div>
         </div>
     </main>
+
+    <!--
+    <div class="album">
+        <img src="galery/album1/img (1).jpg" alt="" class="img_alb">
+        <img src="galery/album1/img (2).jpg" alt="" class="img_alb">
+    </div>
+    -->
 
     <main class="galery">
         <div class="textgalery">
@@ -67,61 +84,55 @@
         <div class="contgalery">
             <div class="img">
                 <div class="overlay">
-                    <span>Mantenimiento</span>
-                    <p>Se realizo una limpieza general al pc, cambio de pasata termica y lubricacion de los ventiladores.</p>
+                    <span>Limpieza y Mantenimiento</span>
+                    <p>Se realizo una limpieza general al pc, cambio de pasata termica, lubricacion de los ventiladores y una optimizacion.</p>
                 </div>
-                <img src="pexels-photo-4792727.jpg" alt="">
+                <img src="galery/album1/img (1).jpg" alt="">
             </div>
             <div class="img">
                 <div class="overlay">
-                    <span>Mantenimiento</span>
-                    <p>Se realizo una limpieza general al pc, cambio de pasata termica y lubricacion de los ventiladores.</p>
+                    <span>Mantenimiento y Limpieza</span>
+                    <p>Se realizo una limpieza y lubricacion del ventilador a la fuente.</p>
                 </div>
-                <img src="pexels-anete-lusina-4792713.jpg" alt="">
+                <img src="galery/album1/img (4).jpg" alt="">              
             </div>
             <div class="img">
                 <div class="overlay">
-                    <span>Mantenimiento</span>
-                    <p>Se realizo una limpieza general al pc, cambio de pasata termica y lubricacion de los ventiladores.</p>
+                    <span>Resultados</span>
+                    <p>Se soluciono que la pc se apagara al usarla por mucho tiempo.</p>
                 </div>
-                <img src="pexels-photo-4792727.jpg" alt="">
+                <img src="galery/album1/img (3).jpg" alt="">
             </div>
             <div class="img">
                 <div class="overlay">
-                    <span>Mantenimiento</span>
-                    <p>Se realizo una limpieza general al pc, cambio de pasata termica y lubricacion de los ventiladores.</p>
+                    <span>Resultados</span>
+                    <p>Al mantener tu pc limpia se exitiende la vida util de los componentes.</p>
                 </div>
-                <img src="pexels-anete-lusina-4792713.jpg" alt="">
-            </div>
-            <div class="img">
-                <div class="overlay">
-                    <span>Mantenimiento</span>
-                    <p>Se realizo una limpieza general al pc, cambio de pasata termica y lubricacion de los ventiladores.</p>
-                </div>
-                <img src="pexels-photo-4792727.jpg" alt="">
+                <img src="galery/album1/img (8).jpg" alt="">
             </div>
         </div>
     </main>
 
     <footer>
+        <a name="contact"></a>
         <div class="contfoot">
             <div class="container">
                 <div class="titlecontact"><span style="color: #4CAF50;">C</span>ontacto</div>
                 <ul class="contact">
-                    <li><span style="color: #ddd;">Instagram: </span><a href="">MendoTech</a></li>
+                    <li><span style="color: #ddd;">Instagram: </span><a href="">DCTech</a></li>
                     <li><span style="color: #ddd;">Whatsapp: </span><a href="">2615930274</a></li>
                     <li><span style="color: #ddd;">Gmail: </span><a href="">emma26228@gmail.com</a></li>
                 </ul>
             </div>
         </div>
         <div class="contfoot">
-            <div>
+            <div class="container">
                 <div class="titlemap"><span style="color: #4CAF50;">U</span>bicacion</div>
-
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=+Dr.posse&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.analarmclock.com/">online alarm clock</a><br><a href="https://timenowin.net/"></a><br><style>.mapouter{position: relative;text-align: right;height: 300px;width: 400px;}</style><a href="https://www.embedmaps.co">custom google maps embed</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 300px;width: 400px;}</style></div></div>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Servicio+T%C3%A9cnico+DCTech&t=&z=16&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div>
             </div>
         </div>
     </footer>
     <script src="app.js"></script>
+    <script src="da.js"></script>
 </body>
 </html>
